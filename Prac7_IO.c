@@ -19,7 +19,7 @@ uint8_t checkBtn(void);
 void    updateLeds(void);
 
 // Global variables
-uint8_t  globalCounter;
+uint8_t  globalCounter=0;
 uint32_t millis;
 
 int main(void)
